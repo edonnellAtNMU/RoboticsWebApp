@@ -11,7 +11,7 @@ h1, h4 {
     TODO: figure out icicle font
 }*/
 
-h4 {
+h1, h4 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,16 +26,22 @@ h4 {
 
 button {
     width: 20%;
+    margin: auto;
     padding: 5px;
 }
 
 #divButtons {
     width: 66%;
     margin: auto;
-    border-style: solid;
+    display: flex;
+    justify-content: center;
 }
 
 #divFoot {
+    width: 98%;
+    margin: 5px;
     border: medium outset navy;
     border-radius: 8px;
+    position: fixed;
+    bottom: 0;
 }
