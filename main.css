@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(215, 243, 252);
+}
+
+h1, h4 {
+    color: rgb(43, 43, 143);
+    text-align: center;
+}
+
+/*h1 {
+    TODO: figure out icicle font
+}*/
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    font-size: 3.5em;
+}
+
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+
+button {
+    width: 20%;
+    padding: 5px;
+}
+
+#divButtons {
+    width: 66%;
+    margin: auto;
+    border-style: solid;
+}
+
+#divFoot {
+    border: medium outset navy;
+    border-radius: 8px;
+}
